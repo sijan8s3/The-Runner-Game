@@ -1,0 +1,202 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1712348772278824, "dur":55, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712348772278932, "dur":6035, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712348772285040, "dur":287, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712348772285353, "dur":4181, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712348772289539, "dur":182351, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712348772471995, "dur":576, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1712348772285153, "dur":4397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712348772289553, "dur":1226, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712348772291134, "dur":152, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1712348772291415, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/jokasta/Unity/Projects/RangerRunner-UnityGame/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712348772291640, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/jokasta/Unity/Projects/RangerRunner-UnityGame/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712348772291899, "dur":454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/jokasta/Unity/Projects/RangerRunner-UnityGame/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712348772292392, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/jokasta/Unity/Projects/RangerRunner-UnityGame/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712348772291292, "dur":1485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1712348772293306, "dur":178156, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1712348772471779, "dur":82, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1712348772285179, "dur":4438, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712348772289620, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712348772290084, "dur":710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712348772293079, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772293594, "dur":21657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1712348772315324, "dur":69, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1712348772315414, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1712348772315546, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1712348772315697, "dur":66, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1712348772315783, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1712348772315895, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1712348772316490, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772317053, "dur":393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1712348772317053, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles runner/runner_app/RangerRunner.exe" }}
+,{ "pid":12345, "tid":2, "ts":1712348772317459, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner.exe" }}
+,{ "pid":12345, "tid":2, "ts":1712348772321689, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772321876, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772322205, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772323080, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Gentleland.Utils.SteampunkUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772323187, "dur":92, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Gentleland.SteampunkUI.DemoAndExample.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772323293, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712348772323893, "dur":147987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772285224, "dur":4402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772289629, "dur":450, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772290080, "dur":710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772292815, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772294213, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772293129, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772294345, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772294518, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1712348772298193, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772298351, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772298555, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1712348772299117, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772299349, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772299638, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772300121, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772300439, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1712348772300642, "dur":11158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1712348772311825, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772312630, "dur":6553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772319236, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772319460, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772321120, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772320791, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772321374, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772322019, "dur":236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772322273, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772323732, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712348772322426, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712348772323819, "dur":148083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712348772285258, "dur":4411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712348772289673, "dur":340, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712348772290013, "dur":783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712348772292985, "dur":180, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712348772293168, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772293683, "dur":15763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1712348772309471, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772309860, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772310220, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772312272, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1712348772312385, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772312550, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772312916, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772313043, "dur":11189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712348772324238, "dur":147693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712348772285286, "dur":4393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712348772289681, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712348772289992, "dur":790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712348772290823, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/jokasta/Unity/Projects/RangerRunner-UnityGame/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772290820, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles runner/runner_app/RangerRunner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772291182, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772291716, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772291886, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772292066, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772292275, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772292461, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772292656, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772292884, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772293270, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772293423, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712348772293731, "dur":81354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1712348772375091, "dur":96808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712348772285323, "dur":4366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712348772289691, "dur":165, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712348772289857, "dur":214, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712348772290071, "dur":712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712348772291105, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772291325, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772291839, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772292070, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772292333, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772292503, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772292703, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772292894, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772293085, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772296748, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772297511, "dur":308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1712348772297837, "dur":84, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1712348772297938, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1712348772298043, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1712348772298473, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772298618, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772298787, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772298990, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772299152, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772299336, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772299530, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772299712, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772300024, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772300196, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772300474, "dur":78, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1712348772300588, "dur":16838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772317454, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1712348772317586, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772317827, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772317999, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772318170, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772318452, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712348772318300, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772318546, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772318679, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772318830, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772319028, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772319225, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772319420, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772319672, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712348772323920, "dur":147971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772285357, "dur":4343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772289703, "dur":284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772289988, "dur":796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772291111, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772291311, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1712348772291412, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772291602, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772291777, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772291948, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772292550, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772292727, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772292941, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772293409, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772293622, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1712348772294386, "dur":4501, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772294263, "dur":4636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772298925, "dur":3332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772302286, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772302987, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1712348772303184, "dur":4977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1712348772308190, "dur":5689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772313902, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772314117, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1712348772314303, "dur":73, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1712348772314396, "dur":87, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1712348772314578, "dur":75, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1712348772314685, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1712348772314865, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1712348772315004, "dur":69, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1712348772315133, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1712348772317644, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772317787, "dur":122, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772317912, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772318467, "dur":153, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772318125, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772318789, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772319100, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1712348772320369, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712348772320161, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772320462, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772322561, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772323400, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712348772323678, "dur":148227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712348772285378, "dur":4333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712348772289712, "dur":353, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712348772290066, "dur":722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712348772294409, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712348772294972, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1712348772295184, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712348772295343, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1712348772295675, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1712348772296112, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1712348772296518, "dur":6875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/RangerRunner_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1712348772303418, "dur":41123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"runner/runner_app/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712348772344548, "dur":127372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712348772473619, "dur":277, "ph":"X", "name": "ProfilerWriteOutput" }
+,
